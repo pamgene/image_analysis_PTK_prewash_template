@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "5",
+ "id": "6",
  "isDeleted": false,
  "rev": "",
  "description": "image analysis PTK Pre Wash",
@@ -332,7 +332,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -400,7 +401,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "f0043a15-1ee3-43de-8539-70c7bd001be7"
+    "id": "5b911c45-43a0-4bfe-afa9-b9e044ff5c0d"
    },
    "parentDataStepId": ""
   },
@@ -747,7 +748,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -815,7 +817,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "719fc780-bf9b-47b3-9a9f-89744c85053e"
+    "id": "09b454f3-bebb-4747-8603-8041ab40580d"
    },
    "parentDataStepId": ""
   },
@@ -1296,7 +1298,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -1364,7 +1367,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "e0485ac9-1a4f-43d2-8c40-83d891ed8517"
+    "id": "daee229d-4ea8-43ae-86f7-d603369e90d7"
    },
    "parentDataStepId": ""
   },
@@ -1687,67 +1690,22 @@
      "namespace": "ds2",
      "operatorRef": {
       "kind": "OperatorRef",
-      "name": "Pamsoft Grid Shiny Operator",
-      "version": "1.2.2",
-      "operatorId": "6",
-      "operatorKind": "ShinyOperator",
-      "propertyValues": [
-       {
-        "kind": "PropertyValue",
-        "name": "Min Diamete",
-        "value": "0.45"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Max Diameter",
-        "value": "0.85"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Saturation Limit",
-        "value": "4095"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Spot Pitch",
-        "value": "0"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "EdgeSensitivityLow",
-        "value": "0"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Edge Sensitivity",
-        "value": "0.05"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Spot Size",
-        "value": "0.66"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Segmentation Method",
-        "value": "Edge"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Rotation",
-        "value": "-2:0.25:2"
-       }
-      ],
+      "name": "Grid Checker",
+      "version": "0.0.2",
+      "operatorId": "4",
+      "operatorKind": "WebAppOperator",
+      "propertyValues": [],
       "url": {
        "kind": "Url",
-       "uri": "https://github.com/pamgene/pamsoft_grid_shiny_operator"
+       "uri": "https://github.com/pamgene/pamsoft_grid_flutter_operator"
       },
       "operatorSpec": {
        "kind": "OperatorSpec",
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -1815,7 +1773,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "fd7f501f-6a42-41f8-abe0-a07d6c2db7e2"
+    "id": "2c3d2efe-68f0-4ca0-b2c7-fb2387ba43df"
    },
    "parentDataStepId": ""
   },
@@ -2145,7 +2103,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -2534,7 +2493,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2ee67697-91f4-4d56-b1bb-b3a3a9f9fc6b"
+    "id": "10d5d56f-9c6f-4a7c-9fde-b4509c7f8a32"
    },
    "parentDataStepId": ""
   },
@@ -2616,7 +2575,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "776b943b-dd90-4916-ac24-4b2f1d25171a",
+     "id": "a6fe229f-7fad-43a4-852f-f31b3a4bec43",
      "relations": []
     },
     "filterSelector": ""
@@ -2815,21 +2774,22 @@
      "namespace": "ds4",
      "operatorRef": {
       "kind": "OperatorRef",
-      "name": "PS12 Image Overview Shiny Operator",
-      "version": "0.2.1",
-      "operatorId": "3",
-      "operatorKind": "ShinyOperator",
+      "name": "Image Overview",
+      "version": "0.0.2",
+      "operatorId": "7",
+      "operatorKind": "WebAppOperator",
       "propertyValues": [],
       "url": {
        "kind": "Url",
-       "uri": "https://github.com/pamgene/ps12image_overview_shiny_operator"
+       "uri": "https://github.com/pamgene/ps12_image_overview_flutter_operator"
       },
       "operatorSpec": {
        "kind": "OperatorSpec",
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -2897,7 +2857,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "10e36ccc-1eed-42d5-af5e-b1f5b62c5116"
+    "id": "fd0bef41-c91f-4bf8-85a7-063c75787dfa"
    },
    "parentDataStepId": ""
   },
@@ -3362,67 +3322,22 @@
      "namespace": "ds5",
      "operatorRef": {
       "kind": "OperatorRef",
-      "name": "Pamsoft Grid Shiny Operator",
-      "version": "1.2.2",
-      "operatorId": "6",
-      "operatorKind": "ShinyOperator",
-      "propertyValues": [
-       {
-        "kind": "PropertyValue",
-        "name": "Min Diamete",
-        "value": "0.45"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Max Diameter",
-        "value": "0.85"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Saturation Limit",
-        "value": "4095"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Spot Pitch",
-        "value": "0"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "EdgeSensitivityLow",
-        "value": "0"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Edge Sensitivity",
-        "value": "0.05"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Spot Size",
-        "value": "0.66"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Segmentation Method",
-        "value": "Edge"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "Rotation",
-        "value": "-2:0.25:2"
-       }
-      ],
+      "name": "Grid Checker",
+      "version": "0.0.2",
+      "operatorId": "3",
+      "operatorKind": "WebAppOperator",
+      "propertyValues": [],
       "url": {
        "kind": "Url",
-       "uri": "https://github.com/pamgene/pamsoft_grid_shiny_operator"
+       "uri": "https://github.com/pamgene/pamsoft_grid_flutter_operator"
       },
       "operatorSpec": {
        "kind": "OperatorSpec",
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -3490,15 +3405,15 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "36e7a091-368b-4b41-bdf8-88674ca93efc"
+    "id": "ca82c412-4a83-4b7f-b3cb-57807fabfb8b"
    },
    "parentDataStepId": ""
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": -224.0,
-  "y": -154.0
+  "x": -348.0,
+  "y": -118.0
  },
  "scale": 1.0
 }
