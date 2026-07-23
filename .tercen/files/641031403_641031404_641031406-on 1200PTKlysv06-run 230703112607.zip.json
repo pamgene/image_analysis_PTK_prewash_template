@@ -1,10 +1,10 @@
 {
  "kind": "FileDocument",
- "id": "README.md",
+ "id": "641031403_641031404_641031406-on 1200PTKlysv06-run 230703112607.zip",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "README.md",
+ "name": "641031403_641031404_641031406-on 1200PTKlysv06-run 230703112607.zip",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -29,7 +29,7 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "dataUri": "lfs/b1/22/0f7c53b67a7892183a849d190987a2952e25e4e24bb847831417be24d5eb",
+ "dataUri": "lfs/50/d2/ea1464704f859f3d6ee2c569e4a05db9dc9326cb8b508e1a28794323dba6",
  "metadata": {
   "kind": "FileMetadata",
   "contentType": "",
@@ -38,6 +38,6 @@
   "contentLanguage": "",
   "md5Hash": ""
  },
- "size": 426,
- "storageSize": 684.0
+ "size": 0,
+ "storageSize": 114442409.0
 }
