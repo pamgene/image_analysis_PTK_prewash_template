@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "6",
+ "id": "5",
  "isDeleted": false,
  "rev": "",
  "description": "image analysis PTK Pre Wash",
@@ -435,7 +435,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1078.5548046875,
+     "x": 1079.5548046875,
      "y": 419.5
     }
    },
@@ -655,7 +655,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 36
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -690,7 +690,7 @@
       "kind": "OperatorRef",
       "name": "pamsoft_grid_rust_operator",
       "version": "0.4.3",
-      "operatorId": "3",
+      "operatorId": "2",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -977,7 +977,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 1064.0842187500002,
-     "y": 797.5
+     "y": 798.5
     }
    },
    "state": {
@@ -1267,7 +1267,7 @@
       "kind": "OperatorRef",
       "name": "pamsoft_grid_qt_rust_operator",
       "version": "0.2.13",
-      "operatorId": "4",
+      "operatorId": "3",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -1756,7 +1756,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 95472
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -1791,7 +1791,7 @@
       "kind": "OperatorRef",
       "name": "Grid Checker",
       "version": "0.0.8",
-      "operatorId": "2",
+      "operatorId": "1",
       "operatorKind": "WebAppOperator",
       "propertyValues": [
        {
@@ -1882,7 +1882,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 9
+     "nRows": 1
     },
     "taskId": ""
    },
@@ -2890,8 +2890,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Image Overview",
-      "version": "0.0.2",
-      "operatorId": "1",
+      "version": "0.0.3",
+      "operatorId": "6",
       "operatorKind": "WebAppOperator",
       "propertyValues": [],
       "url": {
@@ -3404,7 +3404,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 95472
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -3439,7 +3439,7 @@
       "kind": "OperatorRef",
       "name": "Grid Checker",
       "version": "0.0.8",
-      "operatorId": "2",
+      "operatorId": "1",
       "operatorKind": "WebAppOperator",
       "propertyValues": [
        {
@@ -3530,7 +3530,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 9
+     "nRows": 1
     },
     "taskId": ""
    },
@@ -3543,8 +3543,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": -216.0,
-  "y": -114.0
+  "x": -199.0,
+  "y": -68.0
  },
  "scale": 1.0
 }
