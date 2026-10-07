@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "5",
+ "id": "4",
  "isDeleted": false,
  "rev": "",
  "description": "image analysis PTK Pre Wash",
@@ -690,7 +690,7 @@
       "kind": "OperatorRef",
       "name": "pamsoft_grid_rust_operator",
       "version": "0.4.3",
-      "operatorId": "2",
+      "operatorId": "1",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -1267,7 +1267,7 @@
       "kind": "OperatorRef",
       "name": "pamsoft_grid_qt_rust_operator",
       "version": "0.2.13",
-      "operatorId": "3",
+      "operatorId": "2",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -1790,8 +1790,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Grid Checker",
-      "version": "0.0.8",
-      "operatorId": "1",
+      "version": "0.0.11",
+      "operatorId": "6",
       "operatorKind": "WebAppOperator",
       "propertyValues": [
        {
@@ -2891,7 +2891,7 @@
       "kind": "OperatorRef",
       "name": "Image Overview",
       "version": "0.0.3",
-      "operatorId": "6",
+      "operatorId": "5",
       "operatorKind": "WebAppOperator",
       "propertyValues": [],
       "url": {
@@ -3438,8 +3438,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Grid Checker",
-      "version": "0.0.8",
-      "operatorId": "1",
+      "version": "0.0.11",
+      "operatorId": "6",
       "operatorKind": "WebAppOperator",
       "propertyValues": [
        {
